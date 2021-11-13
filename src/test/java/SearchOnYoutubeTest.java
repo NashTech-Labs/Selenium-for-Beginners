@@ -6,7 +6,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.IOException;
 
-public class Search_On_YoutubeTest extends Browser {
+public class SearchOnYoutubeTest extends Browser {
     @Before
     public void setup() throws IOException {
 
@@ -14,9 +14,9 @@ public class Search_On_YoutubeTest extends Browser {
         driver.get(prop.getProperty("Url1"));  //Url2
     }
     @Test
-    public void check() throws InterruptedException {
+    public void search_and_play_on_Youtube() throws InterruptedException {
 
-        Search_On_Youtube search_on_youtube = new Search_On_Youtube(driver);
+        SearchOnYoutube search_on_youtube = new SearchOnYoutube(driver);
         WebDriverWait wait = new WebDriverWait(driver, 5);
 
         wait.until(ExpectedConditions.visibilityOfElementLocated(search_on_youtube.getSearch_box()));
@@ -34,6 +34,6 @@ public class Search_On_YoutubeTest extends Browser {
         search_on_youtube.click_On_video().click();
 
         Thread.sleep(3000);
-        driver.quit();
+        //driver.quit();
     }
 }

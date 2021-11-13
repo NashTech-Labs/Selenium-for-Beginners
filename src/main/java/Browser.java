@@ -20,14 +20,11 @@ public class Browser {
         prop.load(fis);
         String browserName = prop.getProperty("browser");
 
-        if (browserName.equals("chrome"))
-        {
+        if (browserName.equals("chrome")) {
             System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver");
             driver = new ChromeDriver();
         }
-
-        else if (browserName.equals("headless"))
-        {
+        else if (browserName.equals("chrome-headless")) {
             System.setProperty("webdriver.chrome.driver","src/resources/chromedriver.exe");
             ChromeOptions options = new ChromeOptions();
             options.setHeadless(true);
@@ -37,8 +34,6 @@ public class Browser {
             options.addArguments("--disable-dev-shm-usage");
             driver = new ChromeDriver(options);
         }
-
-
         driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
         driver.manage().window().maximize();
 

@@ -2,10 +2,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class Search_On_Youtube {
+public class SearchOnYoutube {
 
     WebDriver driver;
-    public Search_On_Youtube(WebDriver driver) {
+    public SearchOnYoutube(WebDriver driver) {
         this.driver = driver;
     }
 
