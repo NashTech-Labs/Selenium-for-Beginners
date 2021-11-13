@@ -31,7 +31,9 @@ development platforms such as Jenkins, Maven, etc.
 
 # Steps to run the file
 Step 1: Download or Clone the repo in your System.
+
 Step 2: Open the project in IntelliJ or any IDE which can run maven projects.
+
 Step 3: Go to `src > test > java > SearchOnYoutubeTest`. 
 
 Note:-
@@ -44,19 +46,20 @@ xpaths,id ,class etc
 How to find the Xpath :-
 
 Step 1: Inspect the page , ctrl+shift+I or right click from mouse and select Inspect option.
+
 Step 2: Then, select the particular element you want to use.
 
 for example:-
 
 See this picture to make a simple xpath from the HTML DOM.
 
-<img alt="img.png" height="40" src="assests/img.png" title="Xpath Describe" width="80"/>
+![img.png](img.png)
 
 Real Example , making of a xpath:-
 
-<img alt="Temp 1.1.png" height="40" src="img.png" title="Xpath making 1" width="80"/>
+![img_1.png](img_1.png)
 
-<img alt="Temp 1.2.png" height="40" src="img_1.png" title="Xpath making 2" width="80"/>
+![img_2.png](img_2.png)
 
 
 pictures and more to add
