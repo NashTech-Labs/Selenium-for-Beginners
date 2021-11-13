@@ -27,19 +27,22 @@ We mainly use Selenium to run some automated test cases. Since it doesn't have p
 require learning new languages, it gives us lot of flexibility in usage. It can be easily integrated with various
 development platforms such as Jenkins, Maven, etc.
 
-
+# Short Description
+This template will run your Youtube website and search for Knoldus Inc channel and run the first video from there.
 
 # Steps to run the file
 Step 1: Download or Clone the repo in your System.
 
 Step 2: Open the project in IntelliJ or any IDE which can run maven projects.
 
-Step 3: Go to `src > test > java > SearchOnYoutubeTest`. 
+Step 3: Go to `src > test > java > SearchOnYoutubeTest` and Run the Test. 
 
 Note:-
 If the file doesn't get the test annotation , first build the project in Intellij.
+If the chromedriver version error occur kindly update the chrome-driver in `src > main > resources > chromedriver`
+as per your chrome-browser version, from this link:- https://chromedriver.chromium.org/downloads 
 
-xpaths,id ,class etc
+
 
 # Tips to find How Xpath works
 
@@ -53,15 +56,11 @@ for example:-
 
 See this picture to make a simple xpath from the HTML DOM.
 
-![img.png](img.png)
+![img.png](assests/img.png)
 
 Real Example , making of a xpath:-
 
-![img_1.png](img_1.png)
 
-![img_2.png](img_2.png)
+![Temp 1.1.png](assests/Temp%201.1.png)
 
-
-pictures and more to add
-chromedriver - is a  driver which helps to run the browser
-whole structure of file to be explained
+![Temp 1.2.png](assests/Temp%201.2.png)

@@ -25,11 +25,6 @@ public class SearchOnYoutubeTest extends Browser {
         search_on_youtube.click_On_search_box().sendKeys(Keys.ENTER);
         wait.until(ExpectedConditions.visibilityOfElementLocated(search_on_youtube.getKnoldus_title()));
         search_on_youtube.click_On_Knoldus_title().click();
-
-//        wait.until(ExpectedConditions.visibilityOfElementLocated(search_on_youtube.getSubscribe_button()));
-//        search_on_youtube.click_On_subscribe_button().click();
-
-        //Click on first video
         wait.until(ExpectedConditions.visibilityOfElementLocated(search_on_youtube.getvideo()));
         search_on_youtube.click_On_video().click();
 
