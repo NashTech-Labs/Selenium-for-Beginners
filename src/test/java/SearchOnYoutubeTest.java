@@ -11,13 +11,13 @@ public class SearchOnYoutubeTest extends Browser {
     public void setup() throws IOException {
 
         driver = initializeDriver();
-        driver.get(prop.getProperty("Url1"));  //Url2
+        driver.get(prop.getProperty("Url1"));
     }
     @Test
     public void search_and_play_on_Youtube() throws InterruptedException {
 
         SearchOnYoutube search_on_youtube = new SearchOnYoutube(driver);
-        WebDriverWait wait = new WebDriverWait(driver, 5);
+        WebDriverWait wait = new WebDriverWait(driver, 20);
 
         wait.until(ExpectedConditions.visibilityOfElementLocated(search_on_youtube.getSearch_box()));
         search_on_youtube.click_On_search_box().click();
@@ -29,6 +29,5 @@ public class SearchOnYoutubeTest extends Browser {
         search_on_youtube.click_On_video().click();
 
         Thread.sleep(3000);
-        //driver.quit();
     }
 }
