@@ -11,7 +11,7 @@ public class SearchOnYoutubeTest extends Browser {
     public void setup() throws IOException {
 
         driver = initializeDriver();
-        driver.get(prop.getProperty("Url1"));
+        driver.get(prop.getProperty("youtube"));
     }
     @Test
     public void search_and_play_on_Youtube() throws InterruptedException {
