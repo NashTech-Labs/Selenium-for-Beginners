@@ -42,7 +42,7 @@ If the file doesn't get the test annotation , first build the project in Intelli
 If the chromedriver version error occur kindly update the chrome-driver in `src > main > resources > chromedriver`
 as per your chrome-browser version, from this link:- https://chromedriver.chromium.org/downloads 
 Currently, this project has `Chrome version 95, with ChromeDriver 95.0.4638.69`
-![chromeversion.png](assests/Temp%20chromeversion.png)
+![chromeversion.png](assests/chromeversion.png)
 
 
 
