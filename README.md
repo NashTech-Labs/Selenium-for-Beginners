@@ -66,3 +66,30 @@ Real Example , making of a xpath:-
 ![Temp 1.1.png](assests/Temp%201.1.png)
 
 ![Temp 1.2.png](assests/Temp%201.2.png)
+
+---
+## Installation Guide to Run Selenium Project
+
+If you want to run your maven project which consists of Selenium Work, either you can use IntelliJ or use Maven.
+
+In the `Selenium-Basic-Installation-Package` folder consists of,
+
+<li>Intellij</li>
+
+<li>Java</li>
+
+<li>Maven</li>
+
+<li>Chrome Browser</li>
+
+<li>FireFox Browser</li><br>
+
+To run the shell script, use **./sh "nameofFile".sh**<br>
+Example:<br>
+`./sh intellij_install.sh`<br>
+
+To run the maven project , open the terminal and run these commands where the project is present.<br>
+`mvn clean`<br>
+`mvn test`<br>
+
+To run the project in intellij just open the project and run the test cases.
