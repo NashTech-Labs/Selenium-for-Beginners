@@ -66,3 +66,9 @@ Real Example , making of a xpath:-
 ![Temp 1.1.png](assests/Temp%201.1.png)
 
 ![Temp 1.2.png](assests/Temp%201.2.png)
+
+---
+
+# Refresh Methods
+
+You can use Refresh methods of Selenium as per your need in the project shown in the `Refresh Methods` folder.
