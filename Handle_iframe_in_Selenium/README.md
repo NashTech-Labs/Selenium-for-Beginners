@@ -11,7 +11,6 @@ There are two ways to identify a web page has iframe :
 
 1. The first way is inspect the page by ctrl+shift+I or right click from mouse and select Inspect option and search for `iframe-tags`. If the web page find any iframe tags, it means the web page includes iframes.
 
-
 2. The second way is Right-click on the specific element and check all the options. If you find an option like This Frame, view Frame source or Reload Frame, it means the web page includes iframes.
 
 # Methods to handle iframe in selenium
@@ -29,19 +28,20 @@ https://blog.knoldus.com/how-to-handle-iframe-in-selenium-webdriver/
 Note:
 
 If the web page have only one iframe then prefer  by index value.
-If single web page have  many iframe  then use By Name or Id if it is unique then it is best and use second way
-otherwise you use By Web Elements and surely it will give uniquely.
+If any web page have  more than one iframe  then use second way By Name or ID if it is unique and handle iframe then it is best.
+Otherwise you use By Web Elements and surely it will give uniquely.
 
-In the link https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Other_embedding_technologies
+For example: 
+ https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Other_embedding_technologies
 
-There only one iframe so i used By Index value in the switchTo method.
-We can also use by Web element or name and id but in above page iframe attribute name and id was not unique so in the comment part of code you can see i am using By Web Element also.
+There only one iframe  in the above link so i used By Index value in the switchTo method.
+We can also use By Web element or Name and ID but in above web page iframe attribute name and id was not unique so in the comment part of code you can see i am using By Web Element in switchTo method.
  
 
 
 # Short Description about this template
 
-This template will help to handle iframe in selenium when you are doing any automation part and the automated particular element are in the iframe tag.
+This template will help to handle iframe in selenium when you are doing any automation part and the automated  element are in the iframe tag and you want to perform some actions.
 
 # Steps for Execution 
 
@@ -49,7 +49,7 @@ This template will help to handle iframe in selenium when you are doing any auto
 
 2. Open the project in any IDE which run maven project.
 
-3. Go to project and run `HandleiframeTest` file.
+3. Go to project and run `HandleIframeTest` file.
 
 
 
