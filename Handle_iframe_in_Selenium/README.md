@@ -24,7 +24,7 @@ We can handle an iframe in selenium by 3 ways:
 
 for more details you can refer this blog: 
 
-`https://blog.knoldus.com/how-to-handle-iframe-in-selenium-webdriver/`
+https://blog.knoldus.com/how-to-handle-iframe-in-selenium-webdriver/
 
 Note:
 
@@ -32,7 +32,7 @@ If the web page have only one iframe then prefer  by index value.
 If single web page have  many iframe  then use By Name or Id if it is unique then it is best and use second way
 otherwise you use By Web Elements and surely it will give uniquely.
 
-In the link `https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Other_embedding_technologies`
+In the link https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Other_embedding_technologies
 
 There only one iframe so i used By Index value in the switchTo method.
 We can also use by Web element or name and id but in above page iframe attribute name and id was not unique so in the comment part of code you can see i am using By Web Element also.
