@@ -66,6 +66,9 @@ Here You will find , these four through which you can use the refresh methods an
 [3] Send Keys method using F5 Key.<br>
 [4] Send Keys method using ASCII Code.<br>
 
+### Short Description about this template
+This template will helps you to understand and use the concept of Refresh methods in Selenium.
+
 ### Steps to run the Refresh Method project
 1. Open the project or Download the repository.
 2. Open the **RefreshMethods** folder in your IntelliJ or any other IDE which supports maven projects.
