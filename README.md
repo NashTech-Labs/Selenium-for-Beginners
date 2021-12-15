@@ -68,16 +68,12 @@ Real Example , making of a xpath:-
 ![Temp 1.2.png](assests/Temp%201.2.png)
 
 ---
-#Template 2
-
-## Refresh Methods
+# Refresh Methods
 
 You can use Refresh methods of Selenium as per your need in the project shown in the `Refresh Methods` folder.
 
 ---
-#Template 3
-
-## Handle_iframe_in_Selenium
+# Handle_iframe_in_Selenium
 
 In the `Handle_iframe_in_Selenium` folder , there are methods which can be used to Handle iframes in Selenium.
 
