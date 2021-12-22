@@ -31,7 +31,7 @@ We can say this problem is a synchronization problem and to overcome this we hav
 This can be done using the refresh command provided by Selenium web driver.
 
 ---
-
+  
 ## Types of Waits in Selenium
 
 Waits operation can be performed using the following ways in Selenium.
@@ -41,6 +41,7 @@ Here You will find , these four through which you can use the waits methods and 
 [2] ImplicitWait<br>
 [3] Explicit Wait<br>
 [4] FluentWait<br>
+  
 ---
 
 ### Short Description 
@@ -68,6 +69,7 @@ When we want to state a maximum wait time, which is generally common for most of
 Based on those conditions as a developer of your web driver test cases, we have to arrive at a value for the maximum implicit wait time, such that our test cases do not take much time to execute and at the same time do not get timed out very frequently.
 <br><br>
 Selenium will only wait if the element is not immediately present. 
+  
 ---
 
 ####3.ExplicitWait method
@@ -75,6 +77,7 @@ Selenium will only wait if the element is not immediately present.
 Explicit Wait is used on 1 element at a time. Selenium pauses execution until time has expired or an expected condition is met using the WebDriverWait class.
 <br><br>
 We can simply say the explicit wait is conditional wait. Explicit wait tells the web driver to wait for certain conditions before it exceeds maximum time.
+  
 ---
 ####4.FluentWait method
 
