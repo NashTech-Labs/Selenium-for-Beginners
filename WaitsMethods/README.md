@@ -31,7 +31,6 @@ We can say this problem is a synchronization problem and to overcome this we hav
 This can be done using the refresh command provided by Selenium web driver.
 
 ---
-
 ## Types of Waits in Selenium
 
 Waits operation can be performed using the following ways in Selenium.
@@ -41,9 +40,7 @@ Here You will find , these four through which you can use the waits methods and 
 [2] ImplicitWait<br>
 [3] Explicit Wait<br>
 [4] FluentWait<br>
-
 ---
-
 ### Short Description 
 This project will help you to understand all types of waits methods used in Selenium and can be implemented  directly.
 
@@ -58,8 +55,8 @@ Unit – time unit such as milliseconds, seconds, etc.
 - driver – is an object for the WebDriver interface
 - manage – returns an Options interface
 - timeouts – returns the interface for managing driver timeouts
-  
 ---
+
 ####2. ImplicitWait method
 Implicit Wait determines the amount of time a driver should wait for an element. If a program has multiple elements with a driver instance then Selenium waits for each element. 
 <br><br>
@@ -68,14 +65,12 @@ When we want to state a maximum wait time, which is generally common for most of
 Based on those conditions as a developer of your web driver test cases, we have to arrive at a value for the maximum implicit wait time, such that our test cases do not take much time to execute and at the same time do not get timed out very frequently.
 <br><br>
 Selenium will only wait if the element is not immediately present. 
-  
 ---
 ####3.ExplicitWait method
 
 Explicit Wait is used on 1 element at a time. Selenium pauses execution until time has expired or an expected condition is met using the WebDriverWait class.
 <br><br>
 We can simply say the explicit wait is conditional wait. Explicit wait tells the web driver to wait for certain conditions before it exceeds maximum time.
-  
 ---
 ####4.FluentWait method
 
@@ -103,7 +98,6 @@ return driver.findElement(By.id("foo"));
 });
 ```
 ---
-  
 ### <u>Steps to run the Waits Method in the Project</u>
 1. Open the project or Download the repository.
 2. Open the **WaitsMethods** folder in your IntelliJ or any other IDE which supports maven projects.
