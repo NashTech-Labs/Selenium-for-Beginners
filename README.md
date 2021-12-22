@@ -77,4 +77,9 @@ You can use Refresh methods of Selenium as per your need in the project shown in
 
 In the `Handle_iframe_in_Selenium` folder , there are methods which can be used to Handle iframes in Selenium.
 
+---
+# Waits Methods in Selenium
+
+You can use all types of waits methods which are implemented in Selenium, given in the `WaitsMethods` folder.
+
 
