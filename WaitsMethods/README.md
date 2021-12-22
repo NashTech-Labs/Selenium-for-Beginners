@@ -65,13 +65,17 @@ When we want to state a maximum wait time, which is generally common for most of
 Based on those conditions as a developer of your web driver test cases, we have to arrive at a value for the maximum implicit wait time, such that our test cases do not take much time to execute and at the same time do not get timed out very frequently.
 <br><br>
 Selenium will only wait if the element is not immediately present. 
+  
 ---
+  
 ####3.ExplicitWait method
 
 Explicit Wait is used on 1 element at a time. Selenium pauses execution until time has expired or an expected condition is met using the WebDriverWait class.
 <br><br>
 We can simply say the explicit wait is conditional wait. Explicit wait tells the web driver to wait for certain conditions before it exceeds maximum time.
+  
 ---
+  
 ####4.FluentWait method
 
 Fluent Wait in Selenium marks the maximum amount of time for Selenium WebDriver to wait for a certain condition (web element) becomes visible. It also defines how frequently WebDriver will check if the condition appears before throwing the “ElementNotVisibleException”.
@@ -98,6 +102,7 @@ return driver.findElement(By.id("foo"));
 });
 ```
 ---
+  
 ### <u>Steps to run the Waits Method in the Project</u>
 1. Open the project or Download the repository.
 2. Open the **WaitsMethods** folder in your IntelliJ or any other IDE which supports maven projects.
