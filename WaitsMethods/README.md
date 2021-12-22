@@ -49,19 +49,19 @@ This project will help you to understand all types of waits methods used in Sele
 
 ---
 
-####1. pageLoadTimeOut method
+###1. pageLoadTimeOut method
 Page Load Timeout is responsible for setting the wait time for a page to load. Page Load Timeout returns a Timeouts interface and has 2 parameters:
 
 Time – timeout <br>
 Unit – time unit such as milliseconds, seconds, etc.
 
-####Syntax:
+###Syntax:
 - driver – is an object for the WebDriver interface
 - manage – returns an Options interface
 - timeouts – returns the interface for managing driver timeouts
 ---
 
-####2. ImplicitWait method
+###2. ImplicitWait method
 Implicit Wait determines the amount of time a driver should wait for an element. If a program has multiple elements with a driver instance then Selenium waits for each element. 
 <br><br>
 When we want to state a maximum wait time, which is generally common for most of the web elements on your web-based application. 
@@ -72,14 +72,14 @@ Selenium will only wait if the element is not immediately present.
   
 ---
 
-####3.ExplicitWait method
+###3.ExplicitWait method
 
 Explicit Wait is used on 1 element at a time. Selenium pauses execution until time has expired or an expected condition is met using the WebDriverWait class.
 <br><br>
 We can simply say the explicit wait is conditional wait. Explicit wait tells the web driver to wait for certain conditions before it exceeds maximum time.
   
 ---
-####4.FluentWait method
+###4.FluentWait method
 
 Fluent Wait in Selenium marks the maximum amount of time for Selenium WebDriver to wait for a certain condition (web element) becomes visible. It also defines how frequently WebDriver will check if the condition appears before throwing the “ElementNotVisibleException”.
 <br><br>
