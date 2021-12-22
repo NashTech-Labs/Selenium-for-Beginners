@@ -31,6 +31,7 @@ We can say this problem is a synchronization problem and to overcome this we hav
 This can be done using the refresh command provided by Selenium web driver.
 
 ---
+
 ## Types of Waits in Selenium
 
 Waits operation can be performed using the following ways in Selenium.
@@ -41,10 +42,12 @@ Here You will find , these four through which you can use the waits methods and 
 [3] Explicit Wait<br>
 [4] FluentWait<br>
 ---
+
 ### Short Description 
 This project will help you to understand all types of waits methods used in Selenium and can be implemented  directly.
 
 ---
+
 ####1. pageLoadTimeOut method
 Page Load Timeout is responsible for setting the wait time for a page to load. Page Load Timeout returns a Timeouts interface and has 2 parameters:
 
@@ -66,6 +69,7 @@ Based on those conditions as a developer of your web driver test cases, we have 
 <br><br>
 Selenium will only wait if the element is not immediately present. 
 ---
+
 ####3.ExplicitWait method
 
 Explicit Wait is used on 1 element at a time. Selenium pauses execution until time has expired or an expected condition is met using the WebDriverWait class.
@@ -98,6 +102,7 @@ return driver.findElement(By.id("foo"));
 });
 ```
 ---
+
 ### <u>Steps to run the Waits Method in the Project</u>
 1. Open the project or Download the repository.
 2. Open the **WaitsMethods** folder in your IntelliJ or any other IDE which supports maven projects.
